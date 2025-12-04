@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const tempDisplay = document.getElementById("temperature");
     const descriptionDisplay = document.getElementById("description");
     const errorMessage = document.getElementById("error-message");
-    const API_KEY = "c1aff9edd4f8c497fb113d0f9c379fad"; //env variable
+    const API_KEY = " ###"; //env variable
     getWeatherBtn.addEventListener("click", async () => {
         const city = citynput.value.trim();
         if (city) {
@@ -49,3 +49,4 @@ document.addEventListener("DOMContentLoaded", () => {
     }
        
 });
+
